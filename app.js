@@ -1,8 +1,5 @@
 import $ from "jquery";
-import './csss/index.css'
-
-
-
+import './css/index.css'
 $("#btn").click(function(){
     $.ajax({
         url:"/query",
